@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "assets/*": ["./src/assets/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "settings/*": ["./src/settings/*"],
+      "screens/*": ["./src/screens/*"]
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}
